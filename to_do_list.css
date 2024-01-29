@@ -1,0 +1,159 @@
+.container{
+    width: 100%;
+    margin: 0;
+    height: 700px;
+    border: 1px solid black;
+
+    background-image: linear-gradient(26deg, orange, rgba(239, 107, 107, 0.942), rgba(245, 108, 131, 0.795), orange);
+}
+
+
+.Heading{
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+    padding: 10px;
+    font-family: Josefin Sans,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.Middle{
+
+    display: flex;
+    height: 40px;
+    padding: 10px;
+}
+
+/* .Create_list{
+    display: flex;
+    flex: 2;
+ 
+
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 30px;
+    font-weight: 300;
+    font-family:Philosopher;
+    color: antiquewhite;
+} */
+
+#content{
+    border: 1px solid black;
+}
+#p{
+    
+    padding: 7px;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    font-family: Nanum Gothic Coding;
+    
+}
+#date{
+    display: inline-block;
+    margin-left: 0;
+    border: 1px solid black;
+    justify-content: center;
+    
+    align-items: center;
+    margin-top: 6px;
+    border: none;
+    width: 260px;
+    height: 30px;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    font-size: 15px;
+    margin-left: 100px;
+    padding-right: 20px;
+    font-family:Inter Tight;
+    padding-bottom: 0;
+    margin-bottom:0 ;
+    text-align: bottom;
+}
+#delete{
+    position: absolute;
+    margin-left: 0;
+    border: 1px solid black;
+    justify-content: center;
+    right: 394px;
+    align-items: center;
+    margin-top: 6px;
+    border: none;
+    width: 60px;
+    height: 30px;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    font-size: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family:Inter Tight;
+}
+#delete:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+#input{
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 40px;
+    display: flex;
+    padding-left: 20px;
+    min-width: 25%;
+}
+#input::placeholder{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+}
+#add{
+    
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    background-color: white;
+    font-family:Inter Tight;
+    border: none;
+    margin-right: 10px;
+    margin-left: 50px;
+    width: 80px;
+
+}
+#clear{
+    background-color: white;
+    width: 140px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family:Inter Tight;
+    margin-right: 100px;
+    border: none;
+    margin-left: 30px;
+}
+
+#add:hover{
+    cursor: pointer;
+    border: 2px solid black ;
+}
+#add:active{
+    border: 1px solid black ;
+}
+#clear:hover{
+    cursor: pointer;
+    border: 2px solid black ;
+    
+}
+#clear:active{
+    border: 1px solid black ;
+
+}
+
+
